@@ -1,45 +1,46 @@
 # NVIM Configuration
 
 ## Plugin manager
+
 - lazy.nvim
 
 ## Plugins
 
 - Theme:
-    - catppuccin
+  - catppuccin
 - Status line:
-    - lualine
+  - lualine
 - Tree:
-    - neo-tree
-        - plenary
-        - nvim-web-devicons
-        - nui
+  - neo-tree
+    - plenary
+    - nvim-web-devicons
+    - nui
 - Highlighting:
-    - nvim-treesitter
+  - nvim-treesitter
 - LSP:
-    - lsp-zero
-    - nvim-lspconfig
-    - cmp-nvim-lsp
-    - mason
-    - mason-lspconfig
-    - LuaSnip
-        - cmp_luasnip
-        - friendly-snippets
+  - lsp-zero
+  - nvim-lspconfig
+  - cmp-nvim-lsp
+  - mason
+  - mason-lspconfig
+  - LuaSnip
+    - cmp_luasnip
+    - friendly-snippets
 - Formating:
-    - none-ls
+  - none-ls
 - Autopair:
-    - nvim-autopairs
+  - nvim-autopairs
 - Fuzzy finder:
-    - telescope
-        - plenary
+  - telescope
+    - plenary
 - File swap:
-    - harpoon
-        - plenary
+  - harpoon
+    - plenary
 - Debugging:
-    - nvim-dap
-        - nvim-dap-ui
+  - nvim-dap
+    - nvim-dap-ui
 - Undo:
-    - undotree
+  - undotree
 - Git:
-    - vim-fugitive
-
+  - vim-fugitive
+  - gitsigns

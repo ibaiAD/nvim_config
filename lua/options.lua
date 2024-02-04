@@ -11,6 +11,12 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = true -- line wrap
 
+-- not vim backups, undotree long runing undos
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undofile = true
+
 vim.opt.hlsearch = true -- highlight search
 vim.opt.incsearch = true -- incremental search
 
