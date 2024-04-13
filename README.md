@@ -28,6 +28,7 @@
     - friendly-snippets
 - Formating:
   - none-ls
+    - none-ls-extras
 - Autopair:
   - nvim-autopairs
 - Fuzzy finder:
@@ -39,6 +40,7 @@
 - Debugging:
   - nvim-dap
     - nvim-dap-ui
+    - nvim-nio
 - Undo:
   - undotree
 - Git:
