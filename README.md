@@ -31,6 +31,7 @@
     - none-ls-extras
 - Autopair:
   - nvim-autopairs
+  - nvim-ts-autotag
 - Fuzzy finder:
   - telescope
     - plenary
