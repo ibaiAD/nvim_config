@@ -47,3 +47,5 @@
 - Git:
   - vim-fugitive
   - gitsigns
+- Comment:
+  - Comment
