@@ -23,3 +23,7 @@ vim.opt.incsearch = true -- incremental search
 vim.opt.termguicolors = true -- something color related
 
 vim.opt.updatetime = 50 -- fast update time
+
+vim.diagnostic.config({
+  virtual_text = true -- show diagnostics inline
+})
