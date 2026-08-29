@@ -13,6 +13,10 @@ return {
         -- js/ts
         null_ls.builtins.formatting.prettier,
         require("none-ls.diagnostics.eslint_d"),
+        -- go
+        null_ls.builtins.formatting.gofumpt,
+        null_ls.builtins.formatting.goimports_reviser,
+        null_ls.builtins.formatting.golines,
       },
     })
 
