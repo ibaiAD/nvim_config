@@ -9,7 +9,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = true -- line wrap
+vim.opt.wrap = false -- line wrap
 
 -- not vim backups, undotree long runing undos
 vim.opt.swapfile = false
